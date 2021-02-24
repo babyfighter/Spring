@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="004-springboot-properties-yml-yaml" />
+        <module name="008-springboot-custom" />
+        <module name="005-springboot-allboth-properties-yml" />
+        <module name="014-springboot-mybatis-3" />
+        <module name="019-springboot-redis" />
+        <module name="012-springboot-mybatis" />
+        <module name="041-springboot-thymeleaf" />
+        <module name="006-sringboot-multi-environment-properties" />
+        <module name="017-springboot-springmvc" />
+        <module name="040-springboot-thymeleaf-first" />
+        <module name="010-springboot-jsp" />
+        <module name="002-springboot-springmvc" />
+        <module name="001-springboot-first" />
+        <module name="018-springboot-restful" />
+        <module name="004-springboot-properties-yml" />
+        <module name="009-springboot-custom-configuration-2" />
+        <module name="003-springboot-context-path" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="001-springboot-first" target="1.8" />
+      <module name="002-springboot-springmvc" target="1.8" />
+      <module name="003-springboot-context-path" target="1.8" />
+      <module name="004-springboot-properties-yml" target="1.8" />
+      <module name="004-springboot-properties-yml-yaml" target="1.8" />
+      <module name="005-springboot-allboth-properties-yml" target="1.8" />
+      <module name="006-sringboot-multi-environment-properties" target="1.8" />
+      <module name="008-springboot-custom" target="11" />
+      <module name="009-springboot-custom-configuration-2" target="11" />
+      <module name="010-springboot-jsp" target="1.8" />
+      <module name="012-springboot-mybatis" target="1.8" />
+      <module name="014-springboot-mybatis-3" target="11" />
+      <module name="017-springboot-springmvc" target="1.8" />
+      <module name="018-springboot-restful" target="1.8" />
+      <module name="019-springboot-redis" target="11" />
+      <module name="040-springboot-thymeleaf-first" target="1.8" />
+      <module name="041-springboot-thymeleaf" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="001-springboot-first" options="-parameters" />
+      <module name="002-springboot-springmvc" options="-parameters" />
+      <module name="003-springboot-context-path" options="-parameters" />
+      <module name="004-springboot-properties-yml" options="-parameters" />
+      <module name="004-springboot-properties-yml-yaml" options="-parameters" />
+      <module name="005-springboot-allboth-properties-yml" options="-parameters" />
+      <module name="006-sringboot-multi-environment-properties" options="-parameters" />
+      <module name="008-springboot-custom" options="-parameters" />
+      <module name="009-springboot-custom-configuration-2" options="-parameters" />
+      <module name="010-springboot-jsp" options="-parameters" />
+      <module name="012-springboot-mybatis" options="-parameters" />
+      <module name="014-springboot-mybatis-3" options="-parameters" />
+      <module name="017-springboot-springmvc" options="-parameters" />
+      <module name="018-springboot-restful" options="-parameters" />
+      <module name="019-springboot-redis" options="-parameters" />
+      <module name="040-springboot-thymeleaf-first" options="-parameters" />
+      <module name="041-springboot-thymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>

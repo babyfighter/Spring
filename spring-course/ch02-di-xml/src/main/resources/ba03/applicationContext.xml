@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    声明student对象
+        注入就是赋值的一沉思
+        di：给属性赋值
+        1.set注入：spring调用类的set方法，完成属性赋值
+            1）简单类型的set注入
+            2.引用类型set注入：srping调用类的set方法
+            <property name="属性名" ref=“bean的id（对象的名称）/>”
+        2.构造注入 spring调用类的有参数构造方法，在创建对象的同时，在构造方法中给属性赋值
+            使用<constructor-arg>标签属性
+                name：表示构造方法的形参名
+                index：表示构造方法的参数位置，从0开始
+                value：构造方法的形参类型是简单类型
+                ref：构造方法的形参类型是引用类型的
+-->
+
+<!--    使用oname属性实现构造注入-->
+    <bean id="myStudent" class="com.bjpowernode.service.ba03.Student">
+        <constructor-arg name="myname" value="张三"/>
+        <constructor-arg name="myage" value="20"/>
+        <constructor-arg name="mySchool" ref="mySchool"/>
+    </bean>
+
+<!--    使用index属性-->
+    <bean id="myStudent2" class="com.bjpowernode.service.ba03.Student">
+        <constructor-arg index="0" value="里斯"/>
+        <constructor-arg index="1" value="26"/>
+        <constructor-arg index="2" ref="mySchool"/>
+    </bean>
+
+<!--    声明School对象-->
+    <bean id="mySchool" class="com.bjpowernode.service.ba03.School">
+        <property name="name" value="Tsinghua University"/>
+        <property name="address" value="Beijing"/>
+    </bean>
+    <!--    创建File，使用构造注入-->
+<!--    <bean id="myfile">-->
+<!--        -->
+<!--    </bean>-->
+</beans>

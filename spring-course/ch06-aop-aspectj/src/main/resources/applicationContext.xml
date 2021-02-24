@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/aop
+                            http://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--
+    把对象交给spring容器由spring容器同意创建，管理对象
+-->
+<!--    声明目标对象-->
+    <bean id="someService" class="com.bjpowernode.ba08.SomeServiceImpl"/>
+<!--    声明切面对象-->
+    <bean id="myAspect" class="com.bjpowernode.ba08.MyAspect"/>
+<!--    生成自动代理生成器：使用aspectj框架内部功能，创建目标对象的代理对象
+        创建代理对象是在内存中实现，修改目标对象的内存中的结构。创建为代理对象
+        目标对象就是被修改后的代理对象
+        aspectj-autoproxy:会把spring容器中所有目标对象，一次性都声称代理对象
+-->
+<!--    <aop:aspectj-autoproxy/>-->
+<!--    如果期望目标类有接口，使用cglib代理
+       proxy-target-class="true":告诉框架要使用cglib动态代理-->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+</beans>

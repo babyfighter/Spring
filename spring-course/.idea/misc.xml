@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ch01-hello-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ch02-di-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/ch04-di-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06-aop-aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/ch07-spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../321/pom.xml" />
+        <option value="$PROJECT_DIR$/ch08-sprint-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/ch09-sprint-transaction-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/ch08-spring-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/ch09-spring-transaction-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/ch10-spring-transaction-aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/ch11-spring-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    引用类型自动注入：spring框架根据某些规则可以给引用类型赋值-->
+<!--            1.byname:按名称注入：java类中引用类型的属性名和spring容器中<bean>的id相同
+                    且数据类型一致，这样容器中的bean，spring能够复制给引用类型
+                    语法：<bean id = class= autowire="byname">
+                2.byType:按类型注入：java类中引用类型的数据类型和spring容器中(配置文件)<bean>
+                         的class属性是同源关系，这样的bean能够赋值给引用类型
+                  同源：
+                        1.java类中引用类型的数据类型和bean 的class的值一样
+                        2.java类中引用类型的数据类型和bean 的class的值父子类
+                        3.，java类中引用类型的数据类型和bean 的class的值接口和实现类关系
+-->
+
+    <bean id="myStudent" class="com.bjpowernode.service.ba06.Student" autowire="byType">
+        <property name="name" value ="zhangsa"/>
+        <property name="age" value ="30"/>
+        <!--        引用类型-->
+        <!--        <property name="school" ref ="mySchool"/>-->
+    </bean>
+
+</beans>

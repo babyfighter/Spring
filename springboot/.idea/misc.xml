@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/002-springboot-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/001-springboot-first/pom.xml" />
+        <option value="$PROJECT_DIR$/003-springboot-context-path/pom.xml" />
+        <option value="$PROJECT_DIR$/004-springboot-properties-yml-yaml/pom.xml" />
+        <option value="$PROJECT_DIR$/005-springboot-allboth-properties-yml/pom.xml" />
+        <option value="$PROJECT_DIR$/006-sringboot-multi-environment-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/008-springboot-custom/pom.xml" />
+        <option value="$PROJECT_DIR$/009-springboot-custom-configuration-2/pom.xml" />
+        <option value="$PROJECT_DIR$/010-springboot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/012-springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/014-springboot-mybatis-3/pom.xml" />
+        <option value="$PROJECT_DIR$/017-springboot-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/018-springboot-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/019-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/040-springboot-thymeleaf-first/pom.xml" />
+        <option value="$PROJECT_DIR$/041-springboot-thymeleaf/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

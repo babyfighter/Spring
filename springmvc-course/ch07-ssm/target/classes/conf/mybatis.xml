@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--    <settings>-->
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+<!--    </settings>-->
+    <typeAliases>
+        <!--        可以指定一个类型一个自定义别名-->
+        <package name="com.bjpowernode.domain"/>
+    </typeAliases>
+
+    <mappers>
+<!--        name：包名
+                要求：
+                1.mapper文件名称和dao接口名完全一致，包括大小写
+                2.mapper文件和dao接口必须在同一目录
+-->
+        <package name="com.bjpowernode.dao"/>
+    </mappers>
+</configuration>

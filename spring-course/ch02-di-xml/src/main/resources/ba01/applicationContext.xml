@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    声明student对象
+        注入就是赋值的一沉思
+        di：给属性赋值
+        set注入：spring调用类的set方法，完成属性赋值
+            1）简单类型的set注入
+
+-->
+    <bean id="myStudent" class="com.bjpowernode.service.ba01.Student">
+        <property name="name" value="lisi"/>
+        <property name="age" value="20"/>
+    </bean>
+</beans>

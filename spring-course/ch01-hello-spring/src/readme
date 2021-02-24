@@ -1,0 +1,11 @@
+ch01-hello-spring
+
+实现步骤
+1.创建maven项目
+2.加入maven依赖
+spring依赖5.2.5
+junit依赖
+3. 创建类（接口和它的实现类）
+4.创建spring需要使用的配置文件
+声明类的信息
+5.测试
